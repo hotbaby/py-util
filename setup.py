@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     license='MIT',
     url="https://github.com/hotbaby/py-util",
-    install_requires=["pandas==0.19.0"],
+    install_requires=["pandas==0.19.0", "django==1.10.8"],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 2",
